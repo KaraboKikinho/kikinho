@@ -1,0 +1,98 @@
+
+/* General Styles */
+.online-business {
+  padding: 60px 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+/* Section Header */
+.header-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.header-section p {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+/* Features and Benefits */
+.benefits-section .card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.benefits-section .card:hover {
+  transform: translateY(-5px);
+}
+
+.benefits-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.benefits-section > div {
+    margin: 0 1%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.benefits-section .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.benefits-section .card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Business Types */
+.business-types-section h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.business-types-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.business-types-section .list-group-item {
+  background-color: #fff;
+  border: none;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  color: #555;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Call to Action */
+.cta-section h4 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cta-section p {
+  font-size: 1.125rem;
+  color: #555;
+}
+
+.cta-section .btn {
+  font-size: 1.125rem;
+  padding: 12px 30px;
+}

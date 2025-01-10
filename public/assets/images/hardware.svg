@@ -1,0 +1,12 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Rectangle Background -->
+    <rect width="400" height="400" fill="#e0e0e0" />
+
+    <!-- Circle -->
+    <circle cx="200" cy="200" r="190" fill="none" stroke="#000" stroke-width="2"/>
+
+    <!-- Centered SVG Content -->
+    <svg viewBox="0 0 100 100" x="100" y="100" width="200" height="200">
+        <circle cx="50" cy="50" r="50" fill="blue"/>
+    </svg>
+</svg>

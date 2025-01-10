@@ -1,0 +1,10 @@
+
+
+*, a{
+	scroll-behavior: smooth;
+	text-decoration: none!important;
+}
+
+body{
+	background-color: rgba(0,0,0,0.1)!important;
+}

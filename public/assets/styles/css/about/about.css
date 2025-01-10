@@ -1,0 +1,108 @@
+/* General Styles */
+.about-page {
+  padding: 60px 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Section Headings */
+.about-page h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.about-page h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #007bff;
+  margin: 10px auto;
+}
+
+/* Mission List */
+.mission-list, .purpose-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.mission-list li, .purpose-list li {
+  font-size: 1.125rem;
+  color: #555;
+  background-color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #28a745;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.purpose-list li{
+	border-left: 5px solid var(--bs-primary);
+	
+}
+
+/* Accordion (Expandable Goals) */
+.card {
+  margin-bottom: 15px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  border-bottom: none;
+}
+
+.card-header .btn-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.125rem;
+  width: 100%;
+  text-align: left;
+}
+
+.card-body {
+  background-color: #fff;
+  padding: 15px 20px;
+  font-size: 1.125rem;
+  color: #555;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.card-body:hover {
+  background-color: #f0f8ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-page {
+    padding: 30px 15px;
+  }
+
+  .about-page h2 {
+    font-size: 1.75rem;
+  }
+
+  .about-page p,
+  .mission-list li,
+  .card-header .btn-link,
+  .card-body {
+    font-size: 1rem;
+  }
+}

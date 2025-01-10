@@ -1,0 +1,32 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main circle -->
+    <circle cx="200" cy="200" r="190" fill="#1D3557" stroke="#A8DADC" stroke-width="8" />
+    
+    <!-- Initials KKM -->
+    <text x="200" y="180" font-family="Arial" font-size="80" text-anchor="middle" fill="#F1FAEE" font-weight="bold">
+        K  N
+    </text>
+    
+    <!-- Circular design element -->
+    <circle cx="200" cy="200" r="200" fill="none" stroke="#A8DADC" stroke-width="4" stroke-dasharray="15 10" />
+    
+    <!-- Subtext "Karabo Ken Motlhabi" -->
+    <text x="200" y="240" font-family="Arial" font-size="44" text-anchor="middle" fill="white">
+        e
+    </text>
+	
+	<path d="M 150 50 L 160 58Z" />
+	
+    <!-- Path for the curved text -->
+	<path id="curvePath" d="M80 290 Q 200 450, 320 290" style="stroke: none; fill: crimson;"/> 
+	
+	
+	
+	 <!-- Slogan "Your Website Builder" curved along the bottom -->
+    <text font-family="Arial" font-size="22" fill="#A8DADC">
+        <textPath href="#curvePath" fill="white" startOffset="50%" text-anchor="middle">
+            Your web design friend
+        </textPath>
+    </text>
+	
+</svg>

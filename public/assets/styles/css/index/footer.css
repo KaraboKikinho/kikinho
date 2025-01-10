@@ -1,0 +1,47 @@
+
+
+#container10{
+	margin-top: 10%;
+}
+
+#container10 .span{
+	font-weight: 700;
+	color: white;
+}
+
+#container10 .footerDept-header{
+	font-weight: 900;
+	color: rgba(255,255,255,0.25);
+	font-size: large;
+	position: relative;
+	left: -40%;
+}
+
+#container10 ul li{
+	list-style-type: none;
+}
+
+#container10 .footerDept{
+	text-decoration: none;
+	font-weight: 700;
+}
+
+
+#footermage{
+	width: 240px;
+	height: 240px;
+}
+
+#creator{
+	background-color: white;
+	color: black;
+}
+
+a.me-4.text-reset {
+    color: white !important;
+}
+
+section.d-flex.justify-content-center.justify-content-lg-between.p-4.border-bottom {
+    background: darkgrey;
+    color: black !important;
+}

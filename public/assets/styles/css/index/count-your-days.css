@@ -1,0 +1,107 @@
+
+#container3{
+	position: relative;
+	padding: 1%;
+	margin-top: 150px;
+}
+
+
+#container3 #nickname{
+	position: relative;
+	font-family: Georgia;
+	font-weight: 600;
+	font-size: x-large;
+	color: rgba(0,0,0,0.20);
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 1px red, -2px -2px 9px black;
+	margin-left: 3%;
+}
+
+.marquee-img{
+	width: 50px;
+	height: 50px;
+}
+
+#container3 #daysOld{
+	position: relative;
+	font-family: Georgia;
+	font-weight: 600;
+	font-size: small;
+	letter-spacing: 2px;
+}
+
+col.name-col {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.col.name-col > * {
+    margin-bottom: 2%;
+}
+
+#total{
+	color: red;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+#gmt{
+	font-size: x-small;
+	font-weight: 700;
+	position: relative;
+	top: 0px;
+}
+
+#countYourDays{
+	padding: 2% 6%;
+    border-radius: 20px;
+    background-image: linear-gradient(183deg, indigo 50%, transparent);
+    color: white;
+    font-weight: 700;
+    background-color: lightblue;
+		text-shadow: 1px 1px 1px red, -2px -2px 9px black;
+}
+
+#countYourDays:hover{
+	cursor: pointer;
+}
+
+.yourDays{
+	  color: var(--bs-form-valid-color);
+    width: 75%;
+    margin-left: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+		margin-top: -50px;
+}
+
+#calend{
+	  height: 60px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    padding-left: 35%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-family: math;
+    background-color: burlywood;
+    color: darkblue;
+}
+
+
+
+
+
+
+/*  MODALS */
+
+.modal-backdrop.fade.show {
+    z-index: 1;
+}
