@@ -5,11 +5,13 @@ namespace App\DbAccess;
 
 class Config
 {
-	private const DB_HOST = "localhost";
+	
+// MySQL
+private const DB_HOST = "localhost";
 	private const DB_PORT = "3306";
-	private const DB_NAME = "kikinho";
+	private const DB_NAME = "your_database";
 	private const DB_USERNAME = "root";
-	private const DB_PASSWORD = "";
+	private const DB_PASSWORD = "your_password";
 	
 	
 	protected static function getDbHost()
